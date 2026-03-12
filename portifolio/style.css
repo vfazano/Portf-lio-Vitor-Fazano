@@ -8,11 +8,18 @@ font-family:Arial;
 body{
 background:#3b2a27;
 color:white;
+
 }
+
 
 header{
 background:#4b3631;
 padding:20px;
+position: fixed;
+width: 100%;
+top:0;
+left:0;
+z-index:1000;
 }
 
 nav{
@@ -34,7 +41,17 @@ font-weight:bold;
 }
 
 .logo{
-color:white;
+    background-color:#EC5B13;
+    border-radius: 15px;
+    height: 50px;
+    width: 60px;
+
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+
 }
 
 .inicio{
@@ -74,7 +91,7 @@ background:#c98c77;
 }
 
 .foto img{
-width:500px;
+width:400px;
 border-radius:10px;
 }
 
@@ -134,4 +151,18 @@ margin-top:50px;
 }
 .sobre p{
     font-size:20px;
+}
+.img-move{
+  width:200px;
+
+  animation:flutuar 3s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-20px);
+  }
 }
