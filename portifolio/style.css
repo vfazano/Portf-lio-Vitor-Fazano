@@ -20,6 +20,8 @@ width: 100%;
 top:0;
 left:0;
 z-index:1000;
+border-bottom: 10px solid #EC5B13;
+
 }
 
 nav{
@@ -32,17 +34,20 @@ align-items:center;
 nav ul{
 display:flex;
 list-style:none;
-gap:40px;
+gap:100px;
 
 }
 nav ul li a:hover {
   transform: scale(1.1);
+ 
 }
 
 nav a{
 text-decoration:none;
 color:white;
 font-weight:bold;
+
+
 }
 
 .logo{
@@ -68,7 +73,8 @@ display:flex;
 justify-content:center;
 align-items:center;
 padding:100px 50px;
-height: 700px;
+height: 1000px;
+padding-top:px ;
 }
 .status {
 width: 400px;
@@ -176,15 +182,38 @@ text-align:center;
 padding:20px;
 margin-top:50px;
 }
-
-.sobre h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #a36d5c;
-    border-radius: 10PX;
-    height:100px;
+.titulo-sobre-min { 
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: #ff6a00;
+  height: 100px;
 }
+
+
+
+.img-move2{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+    width: 500px;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+.descricao p{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  background-color: yellowgreen;
+    
+
+}
+
+
+
 .sobre p{
     font-size:20px;
 }
