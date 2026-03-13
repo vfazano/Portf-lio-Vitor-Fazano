@@ -38,7 +38,11 @@ gap:100px;
 
 }
 nav ul li a:hover {
-  transform: scale(1.1);
+  
+
+transform: scale(1.20);
+color:#EC5B13;
+
  
 }
 
@@ -46,18 +50,18 @@ nav a{
 text-decoration:none;
 color:white;
 font-weight:bold;
+display:inline-block;
+transition:0.3s;
 
 
 }
 
 .logo{
-    display: flex;
-    justify-content: start;
-    align-items: center;
     background-color:#EC5B13;
     border-radius: 15px;
     height: 50px;
     width: 50px;
+    transform: scale(1.20);
 
 }
 
@@ -72,7 +76,7 @@ font-weight:bold;
 display:flex;
 justify-content:center;
 align-items:center;
-height:110vh;
+min-height:90vh;
 
 }
 .status {
@@ -153,7 +157,14 @@ flex-wrap:wrap;
 background:#5a403a;
 padding:30px;
 border-radius:10px;
-width:250px;
+width:500px;
+height: 350PX;
+}
+
+.img-projeto1{
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
 }
 
 .skills{
@@ -176,6 +187,12 @@ text-align:center;
 padding:20px;
 margin-top:50px;
 }
+.sobre{
+ padding-top:40px;
+
+
+
+}
 .titulo-sobre-min { 
   display: flex;
   justify-content: center;
@@ -191,15 +208,15 @@ margin-top:50px;
  
   animation:flutuar 3s ease-in-out infinite alternate;
   width: 400px;
-  
-    
+   
 }
 .sobremin{
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  height: 90vh;
+  
+
 }
 .descricao{
    display: flex;
