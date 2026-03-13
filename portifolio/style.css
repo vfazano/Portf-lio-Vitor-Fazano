@@ -72,24 +72,18 @@ font-weight:bold;
 display:flex;
 justify-content:center;
 align-items:center;
-padding:100px 50px;
-height: 1000px;
-padding-top:px ;
+height:110vh;
+
 }
 .status {
 width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
   gap: 3px;
-  
   padding: 6px 13px;
   border-radius: 20px;
-
-
   border: 1px solid #ff6a00;
-
   color: #ff6a00;
   font-size: 12px;
   font-weight: 600;
@@ -184,39 +178,43 @@ margin-top:50px;
 }
 .titulo-sobre-min { 
   display: flex;
-  justify-content: start;
-  align-items: start;
-  background-color: #ff6a00;
-  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height:20vh;
+  border-radius: 10px;
+  font-size: 40px;
+
 }
-
-
 
 .img-move2{
-  display: flex;
-  justify-content: start;
-  align-items: start;
-    width: 500px;
-    border-radius: 10px;
-    background-color: aqua;
+ 
+  animation:flutuar 3s ease-in-out infinite alternate;
+  width: 400px;
+  
     
 }
-.descricao p{
+.sobremin{
   display: flex;
-  justify-content: start;
+  justify-content: space-around;
   align-items: center;
-  height: 500px;
-  width: 500px;
-  background-color: yellowgreen;
-    
-
+  border-radius: 10px;
+  height: 90vh;
 }
-
-
-
-.sobre p{
+.descricao{
+   display: flex;
+  justify-content: center;
+  align-items: center;
     font-size:20px;
+  background-color: #77412863;
+  border-radius: 10px;
+    width: 600px;
+    height: 400PX;
+    border-left: 4px solid #EC5B13;
+    padding-left: 16px;
 }
+
+
 .img-move{
   width:200px;
 
